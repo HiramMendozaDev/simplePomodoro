@@ -13,6 +13,14 @@ Designed to help you stay focused and productive using the Pomodoro Technique.
 - 🧠 Motivational messages after each session
 - 🛑 Start, Pause, and Reset functionality
 - 🖼 Clean and readable UI
+- 
+---
+
+## 🌱 Planned Enhancements
+
+- 🔔 Add start, countdown, and finish sounds  
+- 💾 Implement localStorage to save progress  
+- 🔄 Reset Pomodoro tracking  
 
 ---
 
@@ -24,11 +32,8 @@ This is the first stable version of SimplePomodoro. More features and improvemen
 ---
 
 ## 🚀 Getting Started
-
-You can use SimplePomodoro directly by opening the `index.html` file in your browser.
-
-Or visit the live site (if deployed on GitHub Pages):  
-👉 [https://hirammendozadev.github.io/simplePomodoro/](https://hirammendozadev.github.io/simplePomodoro/) *(update this link if needed)*
+You can use SimplePomodoro by clicking this link:
+👉 [https://hirammendozadev.github.io/simplePomodoro/](https://hirammendozadev.github.io/simplePomodoro/)
 
 ---
 

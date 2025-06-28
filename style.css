@@ -1,0 +1,109 @@
+:root {
+    --color-red-primary: #BC4749;
+    --color-green-primary: #386641;
+    --color-green-light: #6A994E;
+    --color-green-lighter: #A7C957;
+    --color-background: #f5f5f5;
+    --color-text: #4e3939;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--color-background);
+    margin: 0;
+}
+
+h1 {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    color: var(--color-background);
+    text-align: center;
+    margin: 0;
+}
+
+h2 {
+    font-family: "Cormorant Infant", serif;
+    font-optical-sizing: auto;
+    font-weight: auto;
+    font-style: italic;
+    text-align: center;
+    margin: 1rem 0;
+    color: var(--color-text);
+}
+
+p {
+    font-family: "Hind Vadodara", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: var(--color-text);
+
+}
+
+#pomodoro-title-container {
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-red-primary);
+}
+
+.general-wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.pomodoro-wrapper {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+#pomodoro-image {
+    max-width: 25vw;
+}
+
+#pomodoro-timer {
+    font-size: 4rem;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    color: var(--color-text);
+}
+
+#pomodoro-message {
+    margin-top: 1rem;
+    text-align: justify;
+}
+
+#start-and-stop-button {
+    background-color: var(--color-green-lighter);
+}
+
+#reset-button {
+    background-color: var(--color-green-primary);
+}
+
+#skip-button {
+    background-color: var(--color-green-light);
+}
+
+.pomodoro-button-wrapper>button {
+    height: 3rem;
+    width: 6rem;
+    border: none;
+    border-radius: .5rem;
+}
+
+ul {
+    list-style-type: none;
+}

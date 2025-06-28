@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,300..700;1,300..700&family=Hind+Vadodara:wght@300;400;500;600;700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <!-- --- -->
+    <title>SimplePomodoro</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="icon" href="/img/tomato-svgrepo-com.svg" type="image/x-icon">
+</head>
+
+<body>
+    <div id="pomodoro-title-container">
+        <h1>SimplePomodoro.</h1>
+    </div>
+
+    <div class="general-wrapper">
+        <h2>A simple, pomodoro timer.</h2>
+
+
+        <div id="pomodoro-events-handler" class="pomodoro-wrapper">
+            <img id="pomodoro-image" src="/img/tomato-svgrepo-com.svg" alt="tomato-image">
+            <div id="pomodoro-timer"></div>
+            <div class="pomodoro-button-wrapper">
+                <button id="start-and-stop-button" class="start">Start</button>
+                <button id="reset-button">Reset</button>
+            </div>
+            <p id="pomodoro-message"><b>SimplePomodoro Says:</b> The Pomodoro Technique is a time management method that
+                involves working in focused
+                25-minute sessions
+                (called
+                “pomodoros”), followed by a short 5-minute break. After completing four pomodoros, a longer break of 15
+                to
+                30
+                minutes is taken. The goal is to improve concentration and reduce mental fatigue by breaking work into
+                manageable intervals with regular rest.</p>
+
+        </div>
+    </div>
+    <script src="/index.js"></script>
+</body>
+
+</html>
